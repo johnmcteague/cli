@@ -336,6 +336,7 @@ func newAppPresenter(app *cli.App) (presenter appPresenter) {
 					presentCommand("curl"),
 					presentCommand("config"),
 					presentCommand("oauth-token"),
+                                        presentCommand("alias"),
 				},
 			},
 		}, {
